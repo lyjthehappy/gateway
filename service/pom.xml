@@ -8,6 +8,18 @@
         <artifactId>ms5</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <dependencies>
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>dao</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 
     <artifactId>service</artifactId>
 
